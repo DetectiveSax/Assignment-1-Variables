@@ -12,9 +12,17 @@ namespace ConsoleApp1
 
            name01 = (Console.ReadLine());
 
-            Console.Write("Hello");
+            Console.WriteLine("Hello" + name01);
             Console.ReadLine();
-            
+
+            Console.Write("How old are you" + name01);
+            Console.ReadLine();
+
+            int num01;
+            num01 = Convert.ToInt32 (Console.ReadLine());
+
+            Console.WriteLine(num01 + "years old. Wow I am unaware of time as a concept, but that's still amazing!");
+            Console.ReadLine();
 
             
 
