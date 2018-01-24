@@ -6,6 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            int age1;
             string name01;
 
             Console.Write("Hello user. My name is Al. What is your name?");
@@ -13,16 +14,14 @@ namespace ConsoleApp1
            name01 = (Console.ReadLine());
 
             Console.WriteLine("Hello" + name01);
-            Console.ReadLine();
+            Console.ReadKey();
 
             Console.Write("How old are you" + name01);
-            Console.ReadLine();
+            Console.ReadKey();
 
-            int age1;
             age1 = Convert.ToInt32 (Console.ReadLine());
-
-            Console.WriteLine(age1 + "years old. Wow I am unaware of time as a concept, but that's still amazing!");
-            Console.ReadLine();
+            Console.WriteLine(age1 + " years old. Wow I am unaware of time as a concept, but that's still amazing!");
+            Console.ReadKey();
 
 
             
